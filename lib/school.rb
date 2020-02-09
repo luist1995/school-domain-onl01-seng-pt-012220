@@ -13,6 +13,7 @@ end
 
 def add_student (name, grade)
   self.roster[grade] << name
+  @roster.has
 end
   
 end
