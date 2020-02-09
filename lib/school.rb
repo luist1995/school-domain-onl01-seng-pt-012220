@@ -12,5 +12,5 @@ def roster
 end
 
 def add_student (name, grade)
-  
+  self.roster 
 end
