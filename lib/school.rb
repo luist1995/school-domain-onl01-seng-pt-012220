@@ -12,6 +12,6 @@ def roster
 end
 
 def add_student (name, grade)
-  self.roster[grade] ||= []
+  self.roster[grade] << grade
   
 end
