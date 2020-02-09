@@ -19,5 +19,6 @@ class School
     self.roster[grade]
   end
   
-  def 
+  def sort 
+    
 end
