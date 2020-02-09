@@ -19,4 +19,5 @@ end
   
   def grade(grade)
     self.roster[grade]
+  end
 end
