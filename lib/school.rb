@@ -4,5 +4,5 @@ attr_reader :name, :roster
 
 def initialize(name)
   @name = name
-  @roster = hash.new
+  @roster = Hash.new
 end
