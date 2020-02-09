@@ -13,7 +13,7 @@ end
 
 def add_student (name, grade)
   self.roster[grade] << name
-  @roster.has
+  @roster.has_key?
 end
   
 end
