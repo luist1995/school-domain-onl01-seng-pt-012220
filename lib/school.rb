@@ -7,5 +7,9 @@ def initialize(name)
   @roster = Hash.new {|h, k| h[k] = []}
 end
 
+def roster
+  @roster
+end
+
 
 end
